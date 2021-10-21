@@ -1,6 +1,6 @@
 (function(){
     var quotes = [
-		  {text:"Mudar aqui depois"}
+		  {text:"UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity"}
 		  ];
 
     var quote = quotes[Math.floor(Math.random() * quotes.length)];
