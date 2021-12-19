@@ -514,6 +514,12 @@
 			<script src="scripts/cheet.min.js" type="text/javascript"></script>
 			<script src="scripts/screenglow.js" type="text/javascript"></script>
 			<script>
+				document.body.addEventListener("keydown", function (event) {
+					if (event.key === '.') {
+						window.open("https://github.dev/xbeatzsec/New-Portfolio", '_blank')
+					}
+
+});
 				document.addEventListener("touchstart", function () { }, true);
 			</script>
 			<script src="scripts/typed.js"></script>
